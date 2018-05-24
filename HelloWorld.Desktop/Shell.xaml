@@ -3,5 +3,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:cal="http://www.codeplex.com/prism"
     Title="Hello World" Height="300" Width="300">
-    <ItemsControl Name="MainRegion" cal:RegionManager.RegionName="MainRegion" />
+    <StackPanel>
+        <ItemsControl Name="MainRegion" cal:RegionManager.RegionName="MainRegion" />
+        <ItemsControl Name="ToolbarRegion" cal:RegionManager.RegionName="ToolbarRegion" />
+    </StackPanel>
 </Window>
