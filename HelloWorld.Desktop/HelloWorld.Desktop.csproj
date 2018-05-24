@@ -184,6 +184,10 @@
       <Project>{b49b0c81-fc6c-4e85-8daa-152a252dbf89}</Project>
       <Name>HelloWorldModule</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TouchstoneModule\TouchstoneModule.csproj">
+      <Project>{54f1d04b-d468-4c38-bfe7-ff8c7748448f}</Project>
+      <Name>TouchstoneModule</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
